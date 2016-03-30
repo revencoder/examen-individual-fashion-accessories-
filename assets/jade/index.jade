@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	meta(name='viewport', content='width=device-width, initial-scale=1')
+	link(rel='stylesheet', href='assets/css/main.css', type="text/css")
+	link(rel='stylesheet', href='assets/font-awesome/css/font-awesome.min.css')
+	link(rel='stylesheet', href='assets/css/bootstrap.min.css', type="text/css")
+	link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700", rel="stylesheet", type="text/css")
+	link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+	link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+	link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+	link(rel="shortcut icon", type="image/x-icon", href="assets/images/favicon.ico")
+	title Fashion Accesories	
+body#page-top.index
+	// Navegación-usuario
+	nav.navbar.navbar-default
+		.container
+			.navbar-header.page-scroll
+				a.navbar-brand.page-scroll(href="#pagetop") Default Welcome Msg!
+			//navbar-inicio
+			ul.nav.navbar-nav.navbar-right
+				li.hidden
+					a(href="#page-top")
+				li
+					span.lcm
+						img(src="assets/images/flag1.png")
+				li.page-scroll
+					a(class="page-scroll",href="#") Language &nbsp;
+						i.fa.fa-angle-down
+				li
+					span.lcm
+						i.fa.fa-usd
+				li.page-scroll
+					a(class="page-scroll",href="#") Currency &nbsp;
+						i.fa.fa-angle-down
+				li
+					span.lcm
+						i.fa.fa-user
+				li.page-scroll
+					a(class="page-scroll",href="#") My Account &nbsp;
+						i.fa.fa-angle-down
+			//navbar-fin
+		//container
+	//header
+	// Sección Marca
+	section
+		.container.mt-10.mb-5
+			.row
+				.col-md-4.col-lg-4.mt-3
+					.media
+						.pull-left
+							i.fa.fa-clock-o.icon-social
+						.media-body
+							h4.media-heading OPENING TIME
+							p 9.00AM - 10.00PM
+				.col-md-4.col-mlg-4
+					.ml-10
+						img(src="assets/images/logo.png")
+				.col-md-4.col-mlg-4
+					.text-center.mt-5
+						.form-group
+							i.fa.fa-search.text-gray
+							input.form-control(type="text", placeholder="search")
+
+
+	// Navegación Principal
+	nav.navbar.navbar-default.navbar
+		.container
+			.navbar-header.page-scroll
+				button.navbar-toggle(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1")
+					span.sr-only Toogle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand.page-scroll(href="#pagetop") HOME
+			//navbar-collapse
+			.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-left
+					li.hidden
+						a(href="#page-top")
+					li.page-scroll
+						a(class="page-scroll",href="#") CONTACT US
+				ul.nav.navbar-nav.navbar-right
+					li
+					//span.lcm
+						i.fa.fa-shopping-cart
+					li.page-scroll
+						a(class="cart",href="#") My Cart
+			//navbar-collapse-end
+		//container
+	//header
+	.container-fluid
+		#myCarousel.carousel.slide(data-ride="carousel")
+		//indicadores
+		ol.carousel-indicators.hidden-xs
+			li.active(data-target="#myCarousel", data-slide-to="0")
+			li(data-target="#myCarousel", data-slide-to="1")
+		//slides
+		.carousel-inner(role="listbox hidden-xs")
+			.item.active
+				img.img-responsive(src="assets/images/slider1.jpg")
+				.carousel-caption.hidden-xs
+			.item
+				img.img-responsive(src="assets/images/slider2.jpg")
+				.carousel-caption.hidden-xs
+	
+	section.banner
+		.container
+			.row
+				.col-md-5.col-mlg-5.mt-3
+					img(src="assets/images/banner1.jpg")
+				.col-md-7.col-mlg-7.mt-3
+					img(src="assets/images/banner2.jpg")
+	section.lastest
+		.container
+			.row
+				.text-center
+					i.fa.fa-angle-left.text-gray
+					h4 LASTEST &nbsp; 
+						span.letra BESTSELLER &nbsp;
+						span.letra SALE &nbsp;
+					i.fa.fa-angle-right.text-gray
+				.col-md-3.col-lg-3.mt-3
+					.text-center
+						img.foto(src="assets/images/a1.jpg", alt="")
+						p.titulo Deliver Wide
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+						p.precio $218.00
+				.col-md-3.col-lg-3.mt-3
+					.text-center
+						img.foto(src="assets/images/b1.jpg", alt="")
+						p.titulo Deliver Wide
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+						p.precio $218.00
+				.col-md-3.col-lg-3.mt-3
+					.text-center
+						img.foto(src="assets/images/c1.jpg", alt="")
+						p.titulo Deliver Wide
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+						p.precio $218.00
+				.col-md-3.col-lg-3.mt-3
+					.text-center
+						img.foto(src="assets/images/d1.jpg", alt="")
+						p.titulo Deliver Wide
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+						p.precio $218.00
+	section.clientes
+		.container
+			.row
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client1.jpg", alt="")
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client2.jpg", alt="")
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client3.jpg", alt="")
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client4.jpg", alt="")
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client5.jpg", alt="")
+				.col-md-2.col-mlg-2.mt-5
+					img.logoc(src="assets/images/client6.jpg", alt="")
+
+
+
+
+	section.lastest
+		.container
+			.row
+				.text-center
+					i.fa.fa-angle-left.text-gray
+					h5 CLOTHING &nbsp; 
+						span.letra EQUIPMENTS &nbsp;
+						span.letra JEWELLERY &nbsp;
+					i.fa.fa-angle-right.text-gray
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/a1.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/d1.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/g2.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/c1.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/c1.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+			.col-md-4.col-lg-4.mt-3
+				.media
+					.pull-left
+						img.producto(src="assets/images/a1.jpg", alt="")
+					.media-body
+						h4.media-heading DeliverWide
+						p.precio $218.00
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star
+						i.fa.fa-star-o
+						i.fa.fa-star-o
+
+						
+		
+
+
+
+	
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+script(src="https://code.jquery.com/jquery-1.10.2.min.js")
+script(type="text/javascript" src="./assets/js/bootstrap.min.js")
+
+	
+	
+
+	
